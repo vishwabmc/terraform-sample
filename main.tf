@@ -3,6 +3,6 @@ data "template_file" "test" {
   template = "Hello $${name}!"
 
   vars = {
-    name = var.name
+    name = "${var.name}"
   }
 }
