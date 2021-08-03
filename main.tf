@@ -1,6 +1,6 @@
-resource "null_resource" "sleep" {
+resource "null_resource" "print" {
   triggers = {
-    uuid = uuid()
+    uuid = var.name
   }
 
   provisioner "local-exec" {
