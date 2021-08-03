@@ -1,9 +1,4 @@
-resource "null_resource" "print" {
-  triggers = {
-    name = "${var.name}"
-  }
-
-  provisioner "local-exec" {
-    command = "echo Hello ${var.name}!"
-  }
+# Create an arbitrary local resource
+data "template_file" "test" {
+  template = "Hello ${var.name}!"
 }
