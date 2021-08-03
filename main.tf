@@ -1,4 +1,9 @@
-# Create an arbitrary local resource
-data "template_file" "test" {
-  template = "Hello ${var.name}!"
+resource "null_resource" "sleep" {
+  triggers = {
+    uuid = uuid()
+  }
+
+  provisioner "local-exec" {
+    command = "echo Hello ${var.name}!"
+  }
 }
