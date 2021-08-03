@@ -1,6 +1,6 @@
 resource "null_resource" "print" {
   triggers = {
-    uuid = var.name
+    name = "${var.name}"
   }
 
   provisioner "local-exec" {
