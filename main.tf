@@ -1,4 +1,4 @@
 # Create an arbitrary local resource
-resource "template_file" "name" {
-  template = "Hello world"
+data "template_file" "test" {
+  template = "Hello ${var.name}!"
 }

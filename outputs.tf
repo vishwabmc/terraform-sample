@@ -1,3 +1,3 @@
 output "rendered_template" {
-  value = template_file.name.rendered
+  value = "data.template_file.test.rendered"
 }
