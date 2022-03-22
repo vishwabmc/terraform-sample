@@ -3,12 +3,22 @@
 1. [Overview](#overview)
 2. [Prerequisites](#prerequisites)
 
-****
-## Overview
+
+---
+
+copyright:
+  years: 2021, 2022
+
+---
+
+<!-- Start with a short description that explains what the product is, why a user would want to install and use it, etc. The following info is used here as an example. Be sure to update it accordingly. -->
 
 This repository contains a sample Terraform that helps you understand how to prepare your Terraform for onboarding to IBM Cloud. 
 
-## Prerequisites
+## Before you begin
+
+<!-- List any prereqs including required permissions, capacity requirements, etc. The following info is used as an example. Update accordingly. -->
+
 
 Make sure that you complete the following prerequisites before you begin:
 
@@ -19,6 +29,32 @@ Make sure that you complete the following prerequisites before you begin:
    - administrator role on all account management services and all IAM-enabled services
    - editor role on the catalog management service
 
-3. Create your [Terraform template](https://cloud.ibm.com/docs/schematics?topic=schematics-create-tf-config).
 
-4. Upload your Terraform template and readme file to your GitHub repository.
+## Required resources
+
+<!-- The following info is used here as an example. Be sure to update it accordingly. -->
+
+To run the software, the following resources are required:
+
+  *  
+  * 
+  *
+
+## Installing the software
+
+<!-- Recommendation is to not include the large table of configuration parameters that are listed on the Create page. -->
+
+### Production configuration
+
+
+## Upgrading to a new version
+
+<!-- How can a user upgrade to a new version when it's available? The following info is used as an example. Update accordingly. -->
+
+When a new version of a code is available, refresh the github link
+
+## Uninstalling the software
+
+<!-- How can a user uninstall this product? The following info is used as an example. Update accordingly. -->
+
+Make sure to destroy

@@ -1,3 +1,4 @@
+# Create an arbitrary local resource
 terraform {
   required_providers {
     ibm = {
@@ -13,7 +14,6 @@ terraform {
   }
 }
 
-# Create an arbitrary local resource
 data "template_file" "test" {
   template = "Hello ${var.name}!"
 }
